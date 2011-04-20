@@ -32,7 +32,7 @@ class Varnish:
 	    stats = {}
 
 	    host = "127.0.0.1"
-	    port = 6082
+	    port = 2000
 
 	    telnet = telnetlib.Telnet()
 	    telnet.open(host, port)
